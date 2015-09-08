@@ -1,0 +1,63 @@
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库文件
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库：servers
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy222
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy333
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:jiyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yongxinyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:test
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
+DEBUG AWT-EventQueue-0 com.wangboo.batchSql.mysql.MysqlClient - url = jdbc:mysql://127.0.0.1:3306/configdb?useUnicode=true&characterEncoding=utf8
+DEBUG AWT-EventQueue-0 com.wangboo.batchSql.util.DataUtil - 生成指令:mysqldump -uroot -p123 -h127.0.0.1 -P3306 --set-charset=utf8 configdb activconf_eatpig activconf_firgiftcontent activconf_fundscontent activconf_fundsterm
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库文件
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库：servers
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy222
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy333
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:jiyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yongxinyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:test
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
+DEBUG AWT-EventQueue-0 com.wangboo.batchSql.mysql.MysqlClient - url = jdbc:mysql://127.0.0.1:3306/configdb?useUnicode=true&characterEncoding=utf8
+DEBUG AWT-EventQueue-0 com.wangboo.batchSql.util.DataUtil - 生成指令:mysqldump -uroot -p123 -h127.0.0.1 -P3306 --set-charset=utf8 configdb activconf_eatpig activconf_firgiftcontent activconf_fundscontent activconf_fundsterm
+INFO Thread-3 com.wangboo.batchSql.util.DataTransferRunnable - 服务器127.0.0.1准备同步
+INFO Thread-3 com.wangboo.batchSql.util.DataTransferRunnable - 服务器[127.0.0.1]同步完成
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库文件
+DEBUG main com.wangboo.batchSql.util.DataUtil - 创建数据库：servers
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy222
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yxy333
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:jiyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:yongxinyu
+INFO main com.wangboo.batchSql.util.DataUtil - 创建服务器节点:test
+DEBUG main com.wangboo.batchSql.util.DataUtil - ----目前存在的配置-----
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=9, db=test, pwd=222, host=127.0.0.1, name=yxy222, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=10, db=test, pwd=222, host=127.0.0.1, name=yxy333, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=15, db=jiyu, pwd=222, host=127.0.0.1, name=jiyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=21, db=configdb, pwd=123, host=127.0.0.1, name=yongxinyu, user=root}
+DEBUG main com.wangboo.batchSql.util.DataUtil - {port=3306, id=22, db=test, pwd=123, host=127.0.0.1, name=test, user=root}
